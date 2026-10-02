@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# benchmark output and generated instances/solutions
+results/
+problems/
+solutions/
+*.jsonl
+gurobi.log

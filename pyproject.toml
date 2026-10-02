@@ -1,0 +1,36 @@
+[project]
+name = 'invsorter'
+version = '1.0.0'
+description = 'Solvers and benchmarks for the inventory management (grid sorting) problem'
+readme = 'README.md'
+license = 'MIT'
+license-files = ['LICENSE']
+requires-python = '>=3.12'
+dependencies = [
+    'z3-solver>=4.16,<4.17',
+    'ortools>=9.10',
+    'gurobipy>=13.0,<13.1',
+]
+
+[project.optional-dependencies]
+planning = [
+    'unified-planning>=1.2',
+    'up-fast-downward>=0.5',
+]
+dev = ['pytest>=8']
+
+[project.urls]
+Repository = 'https://github.com/ths-rwth/Inventory_Management'
+
+[project.scripts]
+invsorter-generate = 'invsorter.generate:main'
+invsorter-solve = 'invsorter.solve:main'
+invsorter-view = 'invsorter.visualize:main'
+invsorter-benchmark = 'invsorter.benchmark.__main__:main'
+
+[build-system]
+requires = ['setuptools>=77']
+build-backend = 'setuptools.build_meta'
+
+[tool.setuptools.packages.find]
+include = ['invsorter*']
