@@ -1,0 +1,59 @@
+README.md
+  s_9548563b021869::t_7579c7298013d0 1-139
+invsorter/benchmark/runner.py
+  s_9548563b021869::t_3dc1c64f703eb7 1-419
+invsorter/benchmark/suites.py
+  s_9548563b021869::t_f0b1e0befeec33 1-789
+invsorter/solve.py
+  s_6c42b83e7f0b65::t_9781adcd25ec9c 1-39
+invsorter/solvers/bound/ilp_type.py
+  s_9548563b021869::t_f26b34554ff6d5 1-513
+invsorter/solvers/bound/sat_type.py
+  s_9548563b021869::t_236ff0928c88e9 1-432
+invsorter/solvers/bound/smt3.py
+  s_9548563b021869::t_cb30babe32b144 1-423
+invsorter/solvers/bound/smt4.py
+  s_9548563b021869::t_6c4016964957a7 1-482
+invsorter/solvers/bound/smt9.py
+  s_9548563b021869::t_71903c3ad0e986 1-222
+invsorter/solvers/unbound/smt5_swap.py
+  s_9548563b021869::t_b180c5752b62b4 1-398
+invsorter/tests/test_benchmark_verification.py
+  s_4036e5b8e7ceaa::t_cd6bbc5aab02f6 1-390
+pyproject.toml
+  s_9548563b021869::t_14d814bc0e3656 1-36
+uv.lock
+  s_9548563b021869::t_1ce70b9dabad55 1-532
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9a3dd66d4a93da7b83276502f4a8ccbe85879643",
+  "prompts": {},
+  "sessions": {
+    "s_4036e5b8e7ceaa": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc33-4537-73c1-bf55-174e6a5d632e",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Magxm <19425588+Magxm@users.noreply.github.com>"
+    },
+    "s_6c42b83e7f0b65": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc33-918c-724e-bcac-368795c9ebac",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Magxm <19425588+Magxm@users.noreply.github.com>"
+    },
+    "s_9548563b021869": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc33-ad86-775d-9290-3df5adf9b9d7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Magxm <19425588+Magxm@users.noreply.github.com>"
+    }
+  }
+}
